@@ -7,7 +7,7 @@ app = FastAPI()
 
 # OpenWeatherMap API configuration
 WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather"
-WEATHER_API_KEY = "54ec898e7960c515153db5e84cdec94d"  # Replace this with your actual API key
+WEATHER_API_KEY = "Replace this with your actual API key" 
 
 # Set up an in-memory cache with a TTL of 300 seconds (5 minutes)
 cache = TTLCache(maxsize=100, ttl=300)
